@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env"
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "babel-preset-power-assert"
+      ],
+      "plugins": [
+        "babel-plugin-espower"
+      ]
+    }
+  }
+}
