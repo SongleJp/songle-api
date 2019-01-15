@@ -1,0 +1,5 @@
+.gitlab-ci.yml
+Dockerfile
+bin/*.sh
+test/bin/*.*
+test/config/*.*

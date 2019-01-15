@@ -1,0 +1,12 @@
+####
+## @see https://docs.docker.com/compose/compose-file
+####
+version: "3"
+services:
+  npm_registry_test_server:
+    container_name: npm_registry_test_server
+    image: verdaccio/verdaccio
+    environment:
+      TZ: Asia/Tokyo
+    expose:
+      - "4873"

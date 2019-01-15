@@ -1,0 +1,13 @@
+####
+## @see https://docs.docker.com/compose/compose-file
+####
+version: "3"
+services:
+  npm_registry_test_client:
+    container_name: npm_registry_test_client
+    build:
+      context: ./../..
+    image: ${IMAGE_PATH}
+    environment:
+      NPM_REGISTRY_SERVER: npm_registry_test_server:4873
+    entrypoint: /work/test/bin/npm-registration-test.sh
