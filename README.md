@@ -241,4 +241,4 @@ player.on("beatPlay",
 Songle API を利用するためには、[利用規約](//api.songle.jp/policies/terms.pdf)に同意する必要があります。
 
 ---
-Copyright (c) 2017-2018 AIST Songle Project
+Copyright (c) 2017-2019 AIST Songle Project

@@ -13,3 +13,12 @@ if [[ ! $(curl -LSs ${SONGLE_API_MODULE_URL} -o /dev/null -w "%{http_code}\n") -
 fi
 
 curl -LSs "${SONGLE_API_MODULE_URL}" -o "${LOCAL_SONGLE_API_PATH}"
+EXIT_CODE=$?
+
+if [[ ${EXIT_CODE} -eq 0 ]]; then
+  echo "OK"
+  exit 0
+else
+  echo "NG"
+  exit 1
+fi
