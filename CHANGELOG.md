@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.1.2 (2019-03-15)
+- Improved `Songle.Player#position` performance (When using niconico)
+
 ## v1.1.1 (2019-01-24)
 - Supported `file://` protocol
   - Fixed error on localhost enviroments
