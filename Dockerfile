@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-FROM node:10
+FROM node:12
 MAINTAINER Takahiro INOUE <takahiro.inoue@aist.go.jp>
 
 ENV DEBIAN_FRONTEND noninteractive

@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.1.3 (2019-07-04)
+- Fixed error when using `Songle.Plugin.SongleSync` on `file://` protocol
+
 ## v1.1.2 (2019-03-15)
 - Improved `Songle.Player#position` performance (When using niconico)
 
