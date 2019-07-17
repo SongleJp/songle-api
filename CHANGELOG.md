@@ -1,5 +1,8 @@
 # CHANGELOG.md
 
+## v1.2.0 (2019-07-17)
+- Supported new version of the Songle REST API
+
 ## v1.1.3 (2019-07-04)
 - Fixed error when using `Songle.Plugin.SongleSync` on `file://` protocol
 
