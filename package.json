@@ -1,6 +1,6 @@
 {
   "name": "songle-api",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Songle API client library",
   "keywords": [
     "songle",

@@ -1,5 +1,9 @@
 # CHANGELOG.md
 
+## v1.2.2 (2020-09-03)
+
+- Bump version to v1.2.2 due to maintenaince
+
 ## v1.2.1 (2020-08-03)
 
 - Bump version to v1.2.1 due to maintenaince
